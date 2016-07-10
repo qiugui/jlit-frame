@@ -5,5 +5,5 @@ import com.jlit.dao.base.interfaces.IBaseDao;
 
 
 public interface IUserDao extends IBaseDao<User>{
-
+	public String call(String name);
 }
